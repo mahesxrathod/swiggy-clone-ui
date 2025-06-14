@@ -128,6 +128,7 @@ function Category() {
           );
         })}
       </div>
+      <hr className=" border-[1px]" />
     </div>
   );
 }
