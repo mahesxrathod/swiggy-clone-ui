@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Card from "./Card";
 
-function TopRest() {
+function Toprest() {
   const [data, setData] = useState([]);
 
   const fetchTopRestaurant = async () => {
@@ -57,4 +57,4 @@ function TopRest() {
   );
 }
 
-export default TopRest;
+export default Toprest;
