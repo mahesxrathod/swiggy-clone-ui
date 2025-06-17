@@ -6,11 +6,6 @@ A frontend clone of the Swiggy food delivery website built using **React.js**, *
 
 🔗 [View Live](https://swiggy-clone-ui-ten.vercel.app/)
 
-## 📸 Screenshots
-
-| Home Page |
-|-----------|
-| ![screenshot](public/screenshot.png) | *(You can add your own)*
 
 ## 🛠️ Tech Stack
 
