@@ -45,6 +45,7 @@ function Header() {
         style={{
           opacity: toggle ? 1 : 0,
           visibility: toggle ? "visible" : "hidden",
+          zIndex:999999
         }}
       >
         {" "}
@@ -58,7 +59,7 @@ function Header() {
           }}
         ></div>
       </div>
-      <header className="p-[15px] shadow-xl text-[#686b78]">
+      <header className="sticky top-0 z-[9999] bg-white p-[15px] shadow-xl text-[#686b78]">
         <div className="max-w-[1200px] mx-auto flex items-center">
           <div className="w-[100px]">
             <img src="s-logo.png" className="w-full" alt="" />
@@ -67,14 +68,14 @@ function Header() {
             <span className="font-bold border-b-[3px] border-[black]">
               Ratanda  
             </span>{" "}
-            jodhpur, Rajsthan, India{" "}
+            Surat, Gujrat, India{" "}
             <FaCaretDown
               fontSize={25}
               className="font-bold inline text-[#fc8019] cursor-pointer"
               onClick={showSideMenu}
             />
           </div>
-          <nav className="flex list-none gap-5 ml-auto font-semibold text-[18px]">
+          <nav className="hidden md:flex list-none gap-5 ml-auto font-semibold text-[18px]">
             {links.map((link, index) => {
               return <li key={index} className="flex items-center gap-2">
                 {link.icon}
